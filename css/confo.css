@@ -1,0 +1,89 @@
+.confo{
+    width: 80%;
+    height: 80vh;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.151);
+border-radius: 30px;
+margin: 100px;
+padding-bottom: 20px;
+background-color: azure;
+}
+.confo h1{
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+    font-weight: 1000;
+    padding-top: 20px;
+}
+
+
+.contect-1{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    /* top: 10px; */
+    margin-bottom: 100px;
+    
+    
+}
+.text-1{
+    margin: 8px 150px;
+    padding: 10px;
+    background-color: rgba(187, 175, 175, 0.151);
+    color: rgb(30, 29, 27);
+    font-size: 20px;
+    
+}
+.sumbit-btn{
+    font-size: 20px;
+    padding: 6px 0;
+    width: 100px;
+    color: aliceblue;
+    position: absolute;
+    bottom: -40px;
+    right: 143px;
+    border-radius: 10px;
+    background-color:rgba(243, 7, 7, 0.515);
+    
+}
+.sumbit-btn:hover{
+    background-color: blue;
+}
+
+@media only screen and (max-width: 800px) {
+    html{
+        width:100%;
+    }
+    .confo{
+        width: 90%;
+        margin-left: 30px;
+        height: auto;
+        padding-bottom: 8px;
+        box-shadow: 0 0 10px rgb(30, 29, 27);
+    }
+    .text-1{
+        width: 80%;
+        margin: 20px 40px;
+        border: none;
+        background-color: rgba(157, 149, 149, 0.435);
+        border-radius: 20px;
+        padding: 15px;
+        color: black;
+
+    }
+    .contect-1{
+        width: 100%;
+        
+    }
+    .sumbit-btn {
+        font-size: 20px;
+        padding: 12px 0;
+        width: 90%;
+        color: aliceblue;
+        position: relative;
+        left: 30px;
+        /* bottom: -40px; */
+        /* right: 143px; */
+    }
+}

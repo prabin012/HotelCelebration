@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/confo.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <div class="confo">
+        <h1>Contect_Information</h1>
+        <form onsubmit="sendEmail(); reset(); return false" class="contect-1" >
+            <input id="name" class="text-1" type="text" placeholder="Enetr your name" required>
+            <input id="email" class="text-1" type="email" placeholder="Enetr your email id" required>
+            <input id="contact" class="text-1" type="number" placeholder="Enetr your contect number" required>
+            <input id="country" class="text-1" type="text" placeholder="Enetr your country" required>
+            <input id="pincode" class="text-1" type="number" placeholder="Enetr your Pin code" required>
+            <input id="message" class="text-1" type="text" placeholder="Enetr your Address" required>
+            <textarea id="text"  class="text-1" name="text" placeholder="Enter your Query" cols="10" rows="1" required></textarea>
+            <button id="SubmitForm" class="sumbit-btn">sumbit</button>
+       </form>
+    </div>
+<SCript src="https://smtpjs.com/v3/smtp.js"></SCript>
+    <script>
+        function sendEmail() {
+            // let Name = document.getElementById("name").value;
+            // let Email = document.getElementById("email").value;
+            // let Contect = document.getElementById("contact").value;
+            // let Country = document.getElementById("country").value;
+            // let pin = document.getElementById("pincode").value;
+            // let address = document.getElementById("message").value;
+            // let qury = document.getElementById("text").value;
+
+            // let chatt = "Name" + Name + "<br/> Email" + Email + "<br/> Contect Number" + Contect + "<br/> Country" + Country + "<br/> Pin COde" + pin + "<br/> Address" + address + "<br/> Message" + qury ;
+        
+
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "prabinmahato625@gmail.com",
+            Password : "ED194FCBD66EDE93574C14F2891CD3FE709A",
+            To : 'kprabin639@gmail.com',
+            From : "prabinmahato625@gmail.com",
+            Subject : "Message RECEIVED from Website",
+             Body : "Name =  " + document.getElementById("name").value
+            + "<br/> Email = " + document.getElementById("email").value
+            + "<br/> Contect Number = " + document.getElementById("contact").value
+            + "<br/> Country = " + document.getElementById("country").value 
+            + "<br/> Pin COde = " + document.getElementById("pincode").value
+            + "<br/> Address = " +document.getElementById("message").value
+            + "<br/> Message = " + document.getElementById("text").value
+
+        }).then(
+        message => alert("Sucessfull")
+        );
+
+        }
+        
+        // $("#SubmitForm").click(function(){
+        //     alert("Successful Order");
+        // });
+    </script>
+</body>
+</html>

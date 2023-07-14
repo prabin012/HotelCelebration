@@ -1,0 +1,113 @@
+.a-body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container-a{
+    width:60%;
+    height:auto;
+    position: absolute;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    /* border: 1px solid violet; */
+    /* margin: 80PX; */
+    top: 20%;
+    left: 5%;
+    padding: 20px;
+    background-color: #e4e3e3;
+    border-radius: 20px;
+    box-shadow: 29px 35px 14px rgb(168, 168, 170);
+}
+.container-a span{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+.container-a h1{
+    font-size: 60px;
+    color: rgb(17, 16, 16);
+}
+.container-a h2{
+    color: rgb(25, 24, 24);
+    font-size: 60px;
+} 
+/* ************************************************************* */
+.b-body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(195, 181, 27); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container-b{
+    width:60%;
+    height:auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    /* border: 1px solid violet; */
+    /* margin: 80PX; */
+    top: 5%;
+    left:30%;
+    padding: 20px;
+    background-color: #e4e3e3;
+    border-radius: 20px;
+    box-shadow: -29px -35px 14px rgb(168, 168, 170);
+}
+.container-b span{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+.container-b h1{
+    font-size: 60px;
+    color: rgb(17, 16, 16);
+}
+.container-b h2{
+    color: rgb(25, 24, 24);
+    font-size: 60px;
+} 
+/* ************************************************************* */
+.c-body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(195, 181, 27); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container-c{
+    width:60%;
+    height:auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    /* border: 1px solid violet; */
+    /* margin: 80PX; */
+    top: 2%;
+    left: 5%;
+    padding: 20px;
+    background-color: #e4e3e3;
+    border-radius: 20px;
+    box-shadow: 29px 35px 14px rgb(168, 168, 170);
+}
+.container-c span{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+.container-c h1{
+    font-size: 60px;
+    color: rgb(17, 16, 16);
+}
+.container-c h2{
+    color: rgb(25, 24, 24);
+    font-size: 60px;
+} 

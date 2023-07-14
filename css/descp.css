@@ -1,0 +1,28 @@
+@media only screen and (max-width: 800px){
+    .desc{
+        display: block;
+      text-align:center;
+      width: 90%;
+    }
+    .bb{
+        height: auto;
+        width: 110%;
+        position: relative;
+        top: 56px;
+        margin-top: 0;
+        left: 0;
+    }
+    .desc p{
+        text-align: left;
+        padding-left: 20px;
+       
+    }
+    .desc a{
+        text-decoration: none;
+        
+    }
+    .pp{
+        position: relative;
+        bottom: -100px;
+    }
+}

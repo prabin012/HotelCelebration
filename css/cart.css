@@ -1,0 +1,27 @@
+.c-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #0001f0;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    html{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont-1{
+        width: 100%;
+    }
+    .box-1{
+        width: 100%;
+    }
+}

@@ -33,10 +33,10 @@ font-family: 'Shadows Into Light', cursive; */
 .greet{
     width: 100%;
     height: 90vh;
-    background-image:url(../Images/ktya.jpg);
+    background-image:url(../Images/b1.jpg);
     filter: blur(10%);
-    -webkit-filter: blur(4px);
-    background-position: left 10%;
+    -webkit-filter: blur(1px);
+    background-position: left 60%;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;;
@@ -244,11 +244,13 @@ font-family: 'Shadows Into Light', cursive; */
     text-align: center;
     position: relative;
     bottom: 0;
-    background-color: black;
+    background-color:#3D3C3A;
     color: white;
     width: 100%;
-    height: 50px;
+    height: auto;
     padding-top:  10px;
+    border-top: 5px solid white;
+    padding-bottom: .3rem;
 }
 
 
@@ -479,26 +481,29 @@ img {vertical-align: middle;}
 .box-1{
     display: flex;
     justify-content: space-between;
-    width: 85%;
-    background-color: #f1f1f1;
-    height: 60vh;
-    position: relative;
-    left: 8%;
-    top: 10%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 28px rgb(0 0 0 / 50%);
-    margin-top: 85px;
-    margin-bottom: 30px;
+    align-items: center;
+    width: 100%;
+    background-color:black;
+    /* background-image: url(../images/b12.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+   
+    
 }
 .img-cont{
-    width: 30%;
+    width: 100%;
     /* border: 1px solid rgb(16, 15, 15); */
-    height: 50vh;
+    height: 80vh;
     position: relative;
-    left: 3%;
-    top:7%;
+   /* left: 15%; */
     border-radius: 20px;
     box-shadow: 1px 4px 2px rgb(0 0 0 / 27%);
+}
+.img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .text-cont{
     width: 30%;
@@ -587,15 +592,33 @@ img:hover{
 /* ************************************************************************** */
 #contect-portion{
     padding-bottom: 20px;
-    background-color: #666363;
-    
+    background-color: #3D3C3A;    
 }
 
 .cont-0{
     display: flex;
     justify-content:space-between;
-    padding: 10px 70px;
-    margin: 0px 40px;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    /* padding: 10px 70px; */
+    /* margin: 0px 40px; */
+}
+.cont-1{
+    width: 100%;
+    /* height: 60ch; */
+    text-align: center;
+}
+.cont-1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.cont-1 p{
+    color: rgba(255, 255, 255, 0.531);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cont-1 li{
     font-size: 25px;
@@ -606,11 +629,37 @@ img:hover{
    line-height: 30px;
    color: black;
 }
-.cont-3{
+.l1{
+    width: 16rem;
+    height: 12rem;
+    position: relative;
+    left: 25%;
+    top: -8rem;
     
+}
+.l1 img{
+   width: 100%; 
+   height: 100%;
+}
+.l1 img:hover{
+    box-shadow: none;
+}
+.l1 h2{
+    /* margin-top: -2rem; */
+    color: white;
+}
+.l1 input{
+    width: 13rem;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    border: 3px solid rgb(86, 83, 83);
+    margin:15px;
+    background-color: transparent;
+    color: rgb(198, 198, 188);
 }
 .links{
     text-align: center;
+    /* margin-top: -10px; */
 }
 #contect-portion h3{
     color: rgb(255, 0, 0);
@@ -620,10 +669,11 @@ img:hover{
 }
 .icon-2{
     font-size: 25px;
-    padding: 10px 16px;
+    padding: 6px 6px;
     text-align: center;
     cursor: pointer;
     transition: all 0.4s;
+    color: rgba(255, 255, 255, 0.531);
 }
 .icon-2:hover{
     color: rgb(11, 11, 11);
@@ -635,10 +685,14 @@ img:hover{
     color: wheat;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    position: relative;
-    top: 50px;
-    margin-bottom: 100px;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   background-image: url(../images/b13.jpg) ;
+  
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
    
     
     
@@ -646,30 +700,43 @@ img:hover{
 .text-1{
     margin: 8px 150px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color:transparent;
+   
     color: wheat;
-    
+    border: none;
+    /* border-radius: 10px; */
+    width: 30rem;
+    border-bottom: 1px solid rgb(255, 191, 0);
 }
-.sumbit-btn{
+.sumbit-btn1{
     font-size: 20px;
-    padding: 6px 0;
-    width: 100px;
-    color: aliceblue;
-    position: absolute;
-    bottom: -40px;
-    right: 143px;
-    border-radius: 10px;
-    background-color:rgba(243, 7, 7, 0.515);
+    padding: .3rem 2rem;
+    /* width: 100px; */
+    color:white;
+    margin: 1rem;
+    /* position: absolute; */
+    /* bottom: -40px; */
+    /* right: 143px; */
+    /* border-radius: 10px; */
+    background-color:transparent;
+    border: 2px solid rgba(86, 83, 83, 0.575);
     
 }
-.sumbit-btn:hover{
-    background-color: blue;
+.sumbit-btn1:hover{
+    background-color: rgb(239, 159, 10);
+    color: #3D3C3A;
 }
 .re{
     text-align: center;
     position: relative;
-    left: 45%;
-    font-size: 35px;
+    /* left: 35%; */
+    padding-bottom: .2rem;
+    padding-top: 1rem;
+    width: 900PX;
+    font-size: 40px;
+    color: #EAC117;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
 }
 /* ************************* */
 /*  */
@@ -687,27 +754,151 @@ img:hover{
     color: wheat;
 }
 .ourFoodmenu{
-    background-color: black;
+    /* background-color: #3D3C3A; */
+    background-image: url(../images/b13.jpg);
+    background-position: left -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 5rem;
 }
 .ourFooditem{
     text-align: center;
 }
+.ourFooditem .m2{
+    /* border-radius: 0; */
+    background-color: rgba(95, 85, 67, 0.166);
+    color: #f4f1ea;
+}
 .menuItems{
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; */
     margin-top: 5rem;
+    position: relative;
+    margin-left: 10%;
     flex-wrap: wrap;
 }
 .itemRow-1{
-    width: 30%;
+    width: 70%;
     margin: 3rem;
 }
 .itemRow-1 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color: wheat;
     font-family: 'Times New Roman', Times, serif;
 }
+.itemRow-1 p{
+    color: #EAC117;
+    font-size: 3rem;
+}
+.itemRow-1 span{
+    color: white;
+    font: 1.5rem;
+    width: 70%;
+    margin-left: 2rem;
+}
+.itemRow-2 p{
+    font-size: 2rem;
+}
+/*  */
+/*  */
+.ourChief{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-bottom: 3rem;
+}
+.chief{
+    text-align: center;
+}
+.chief h2{
+    background-color: black;
+    color: wheat;
+    margin-top: 2rem;
+    width: fit-content;
+    padding:.3rem 1rem;
+    text-align: center;
+    position: relative;
+    left: 37%;
+}
+.chief-1 h2{
+    background-color: #3D3C3A;
+    text-align: center;
+    color: wheat;
+}
+.lix h2{
+  position: relative;
+  left: 40%;
+  padding:.1rem 5rem;
+}
+/*  */
+/*  */
+.tableBooking{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding-bottom: 3rem;
+}
+.tableForm{
+    background-color: black;
+    background-image: url(../images/b11.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tableForm h1{
+    color: white;
+    font-size: 4rem;
+}
+.tableForm h2{
+    background-color: #575353;
+    padding: .1rem 2rem;
+}
+.tableForm input{
+    display: block;
+    border: none;
+    margin: 1rem;
+    background-color:transparent;
+    color: white;
+    border-bottom: 2px solid bisque;
+    padding: .4rem 1rem;
+    width: 18rem;
+}
+.tableImage img{
+    width: 100%;
+    height: 80vh;
+}
+.tableForm button{
+    text-align: center;
+    padding: .3rem 2rem;
+    background-color: transparent;
+    color: wheat;
+    border:2px solid #6a6865;
+    transition: .5s;
+}
+.tableForm button:hover{
+    background-color: #f1f1f1;
+    color: #3D3C3A;
+   
+}
+.tab h2{
+left: 42%;
+}
+
+
+
 /*  */

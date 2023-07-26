@@ -94,75 +94,14 @@ font-family: 'Shadows Into Light', cursive; */
     /* border-radius: 10px; */
     background-color: rgb(167, 166, 161);
 }
-/* .g-0{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    width: 100%;
-    position: absolute;
-    top: 120px;
-    left: -1rem;
-    text-align: left;
-   
-    ;
-    
-}
-.g-1:hover{
-    background-color: orange;
-    color: black;
-    transition: .5s ease;
-}
-.g-0 p:hover{
-    background-color: orange;
-    color: black;
-    transition: .5s ease; 
-}
-.g-1{
-    font-size: 60px;
-    /* border-bottom: 2px solid orangered; */
-    /* color: rgb(4, 4, 4); */
-    /* text-shadow:0 0 10px #d51c1c; */
-    /* width: 40%;
-    font-family: 'Shadows Into Light', cursive;
-    box-shadow: 0 0 30px rgba(102, 98, 98, 0.942);
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    text-align: center;
-    padding-top: 50px;
-    margin: 10px;
-    padding: 20px;
-    border-width: 5px;
-    border-collapse: separate;
-    border-bottom-style: double;
-    border-top-style: double;
-    background-color:rgba(129, 99, 99, 0.52);
-    cursor: pointer;
-   
-    font-weight: 1000; */
-    /* transform: translate(-50%, -50%); */
-/* } */
-/* .g-0 p{
-    /* box-shadow: 0 0 30p rgba(102, 98, 98, 0.942); */
-    /* border: 2px solid rgb(167, 2, 2); */
-    /* margin: 10px;
-    padding: 15px;
-    font-size: 30px;
-    color: black;
-    font-weight: 1000;
-    width: 40%;
-    border-width: 5px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    font-family: 'Shadows Into Light', cursive;
-    /* border-top-left-radius: 50px; */
-    /* border-collapse: separate;
-    border-bottom-style: double;
-    border-top-style: double;
-    cursor: pointer;
-    background-color:rgba(129, 99, 99, 0.567); */
 
-   
-    /* margin-left: 100px; */
+
+
+.list-group-numbered{
+    width: 100%;
+    position: relative;
+    left: -0%;
+}
  
 .menu{
     display: flex;
@@ -276,12 +215,16 @@ font-family: 'Shadows Into Light', cursive; */
 .item-1 img{
     width: 100%;
 }
+.item-1 p{
+    font-weight: 500;
+}
 
 
 
 
 
 /* dsjfsdjfkjdfkjdhfkjdsfkdsjfkdsjfk */
+
 
 .body-1{
     width: 100%;
@@ -762,6 +705,7 @@ img:hover{
     width: 100%;
     height: auto;
     padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 .ourFooditem{
     text-align: center;
@@ -772,13 +716,18 @@ img:hover{
     color: #f4f1ea;
 }
 .menuItems{
-    /* display: flex;
+    display: flex;
     justify-content: space-evenly;
-    align-items: center; */
-    margin-top: 5rem;
+    align-items: center;
+     margin-top: 5rem;
     position: relative;
-    margin-left: 10%;
-    flex-wrap: wrap;
+    margin-left: 0%;
+    flex-wrap: wrap; 
+
+}
+.card{
+  
+
 }
 .itemRow-1{
     width: 70%;
@@ -836,6 +785,10 @@ img:hover{
   position: relative;
   left: 40%;
   padding:.1rem 5rem;
+}
+.card-body span{
+    font-weight: 600;
+    color: orange;
 }
 /*  */
 /*  */
